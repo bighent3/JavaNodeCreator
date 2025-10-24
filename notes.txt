@@ -1,0 +1,6 @@
+Create List
+Query for things you want to compare
+Create node for each item you want compared
+Create Binary Search Tree Structure
+Compare item until becomes a leaf
+Print Items in order
