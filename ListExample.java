@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+
+//This class Prompts the user for items that they want included in a list, then allows them to rank those items based on their opinion on them
+//in relation to the other and returns a list ordered by ranking. With a score out of 10 for each item.
 public class ListExample {
     public static void main(String[] args) {
         List<String> myList = new ArrayList<>();
@@ -10,7 +13,14 @@ public class ListExample {
         System.out.println("My List: " + myList);
         
     }
-
+    //Behavior: 
+    //Pre:
+    //Post:
+    //Parameters:
+    //  - List<String> myList
+    //  - Scanner scanner
+    //Exceptions:
+    //Returns:
     public static List<String> addToList(List<String> myList, Scanner scanner) {
         System.out.println("Would you like to add an item to the list? (yes/no)");
         String confirmation = scanner.nextLine();
